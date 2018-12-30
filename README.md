@@ -19,13 +19,16 @@ This dataset is used in the paper, [(S. Liu, J. Feng, C. Domokos, H. Xu, J. Huan
 ## Setup Dataset
 
 ```
+# install the requirements
+pip install -r requirements.txt
+
 # download zip file (name) from author's GoogleDrive
-./download.sh
+download.sh
 
-# rename
-mv data data.zip
+# rename "data" file manually to "data.zip" or run the command below:
+rename data data.zip
 
-unzip data.zip
+# unzip data.zip manually or follow instructions from here (http://stahlworks.com/dev/index.php?tool=zipunzip) to unzip from cmd
 
 # make label/categories.tsv
 # make label/bbox.json
