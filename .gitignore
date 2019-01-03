@@ -5,3 +5,7 @@ fashon_parsing_data.mat
 
 image/*
 label/bbox.json
+
+trainimages/
+valimages/
+testimages/
