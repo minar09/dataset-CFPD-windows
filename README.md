@@ -19,21 +19,24 @@ This dataset is used in the paper, [(S. Liu, J. Feng, C. Domokos, H. Xu, J. Huan
 ## Setup Dataset
 
 ```
-# install the requirements
+1. install the requirements
 pip install -r requirements.txt
 
-# download zip file (name) from author's GoogleDrive
+2. download zip file (name) from author's GoogleDrive
 download.sh
 
-# rename "data" file manually to "data.zip" or run the command below:
+3. rename "data" file manually to "data.zip" or run the command below:
 rename data data.zip
 
-# unzip data.zip manually or follow instructions from here (http://stahlworks.com/dev/index.php?tool=zipunzip) to unzip from cmd
+4. unzip data.zip manually or follow instructions from here (http://stahlworks.com/dev/index.php?tool=zipunzip) to unzip from cmd
 
-# make label/categories.tsv
-# make label/bbox.json
-# from fashon_parsing_data.mat
+5. make label/categories.tsv, label/bbox.json from fashon_parsing_data.mat
 python make_label.py
+
+6. Convert .mat to hdf5(.h5), run convert_tmm_to_hdf5.m with matlab
+
+7. Convert .hdf5 files into images with annotations and lists
+python export.py
 ```
 
 ## fashon_parsing_data.mat
