@@ -134,6 +134,8 @@ if __name__ == "__main__":
                         help='Input data.', default='TMM_test.h5')
     parser.add_argument('--output', type=str, default='trainimages',
                         help='Output data.')
+    # parser.add_argument('--output', type=str, default='testimages', help='Output data.')
+    # parser.add_argument('--output', type=str, default='valimages', help='Output data.')
     parser.add_argument('--output_metadata', type=str, default=None,
                         help='Output metadata.')
     parser.add_argument('--output_size', default=(400, 600),
