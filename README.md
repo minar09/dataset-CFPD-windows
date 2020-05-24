@@ -1,3 +1,6 @@
+## Disclaimer
+This is a modified repository from [dataset-CFPD](https://github.com/hrsma2i/dataset-CFPD). Please refer to the original repository for more details.
+
 # CFPD | Colorful Fashion Parsing Data
 
 This dataset is used in the paper, [(S. Liu, J. Feng, C. Domokos, H. Xu, J. Huang, Z. Hu, & S. Yan. 2014) CFPD | Fashion parsing with weak color-category labels.](https://sites.google.com/site/fashionparsing/home)
